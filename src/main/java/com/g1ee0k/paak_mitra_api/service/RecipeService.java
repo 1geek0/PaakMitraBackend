@@ -31,8 +31,8 @@ public class RecipeService {
                 .addQueryParameter("q", query)
                 .addQueryParameter("beta", "true")
                 .addQueryParameter("type", "public")
-                .addQueryParameter("app_key", System.getProperty("EDAMAM_APP_KEY"))
-                .addQueryParameter("app_id", System.getProperty("EDAMAM_APP_ID"))
+                .addQueryParameter("app_key","f0772ab0")
+                .addQueryParameter("app_id", "3c584ee9266854b71be156a9304cc47b")
                 .addQueryParameter("cuisineTypes", "Indian,Italian,Chinese").build().toString();
         Request req =new Request.Builder().url(url).build();
         try {

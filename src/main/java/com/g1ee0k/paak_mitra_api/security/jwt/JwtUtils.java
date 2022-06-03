@@ -11,8 +11,8 @@ import java.util.HashMap;
 
 @Component
 public class JwtUtils {
-    private String jwtSecret = System.getProperty("jwtSecret");
-    private String refreshSecret = System.getProperty("refreshSecret");
+    private String jwtSecret = "+ivj2389fjn238904mfnv0249jf2en9823jf2389fn289ng289hg2g8hj289034bg24890gn248ng2489+ng24hg82hf1390=";
+    private String refreshSecret = "+dui2eqbnvu789w2ebnv7892nf230fhj238fjn9238fn2=";
     private int jwtExpirationMs = 1000 * 60 * 60 * 2; // 2 hrs
 
     private final byte[] keyBytes = Decoders.BASE64.decode(jwtSecret);
